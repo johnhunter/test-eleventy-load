@@ -1,0 +1,21 @@
+{
+  "name": "test-eleventy-load",
+  "version": "1.0.0",
+  "description": "An 11ty instance for testing elevently load issues",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf _site/*",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "author": "john@johnhunter.info",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "eleventy-load": "^0.3.1",
+    "eleventy-load-css": "^0.3.0",
+    "eleventy-load-file": "^0.1.0",
+    "eleventy-load-html": "^0.1.1",
+    "eleventy-load-sass": "^0.1.2"
+  }
+}
